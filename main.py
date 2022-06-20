@@ -19,7 +19,7 @@ AOI_Headers = {'Host': 'login.aol.com','X-Requested-With': 'XMLHttpRequest','Con
 #Creating Root of App
 @app.route('/',methods=['GET'])
 def Root():
-      return 'welcome to NoNe-HuNTeR emails api Live method */email/available/live/?email=username+@hotmail.com or outlook.com or outlook.sa Yahoo method */email/available/yahoo/?username=username Aol method */email/available/aol/?username=username'
+      return 'welcome to NoNe-HuNTeR emails api Live method */email/available/live/ Yahoo method */email/available/yahoo/ Aol method */email/available/aol/'
 
 #Creating Live app
 @app.route('/email/available/live/',methods=['POST'])
